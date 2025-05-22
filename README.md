@@ -37,10 +37,6 @@ workture/
 ├── pom.xml
 └── README.md
 
-yaml
-Copy
-Edit
-
 ---
 
 ## ✨ Features (To Be Built)
@@ -73,37 +69,27 @@ git clone https://github.com/Ajay3136/workture.git
 cd workture
 Build the project:
 
-bash
-Copy
-Edit
+
 ./mvnw clean install
 Run the application:
 
-bash
-Copy
-Edit
+
 ./mvnw spring-boot:run
 Access API locally:
 
-bash
-Copy
-Edit
+
 http://localhost:8080/api/
 🔧 Configuration
 application.properties example:
 
-properties
-Copy
-Edit
+
 spring.datasource.url=jdbc:mysql://localhost:3306/workture_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 Use H2 for easy testing:
 
-properties
-Copy
-Edit
+
 spring.datasource.url=jdbc:h2:mem:workture
 spring.h2.console.enabled=true
 📚 Future Plans
