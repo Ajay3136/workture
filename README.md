@@ -23,19 +23,19 @@
 ## 📁 Project Structure
 
 workture/
-├── src/
-│ ├── main/
-│ │ ├── java/com/workture/
-│ │ │ ├── controller/
-│ │ │ ├── service/
-│ │ │ ├── repository/
-│ │ │ ├── entity/
-│ │ │ └── WorktureApplication.java
-│ │ └── resources/
-│ │ ├── application.properties
-│ └── test/
-├── pom.xml
-└── README.md
+- src/
+-- main/
+--- java/com/workture/
+---- controller/
+---- service/
+---- repository/
+---- entity/
+---- WorktureApplication.java
+--- resources/
+--- application.properties
+-- test/
+- pom.xml
+- README.md
 
 ---
 
